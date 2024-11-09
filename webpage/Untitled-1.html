@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>赵致睿的博客</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            .nav
+            {
+                background-color:lightblue;
+                color:blueviolet;
+                padding:10px;
+            }
+            iframe
+            {
+                width:100%;
+                height:80vh;
+                border:none;
+            }
+            .welcome-message
+            {
+                position:absolute;
+                top:10px;
+                left:10px;
+                margin:0;
+            }
+            .link-container
+            {
+                position:absolute;
+                top:300px;
+                right:10px;
+                border-left:1px soild #590ccc;
+                padding-left:10px;
+                text-align:right;
+            }
+            .graphic-pos
+            {
+                position:absolute;
+                top:400px;
+                right:10px;
+                margin:0;
+            }
+            .head-pos
+            {
+                position:absolute;
+                top:200px;
+                left:10px;
+                margin:0;
+            }
+    .pos
+    {
+        position:absolute;
+        top:200px;
+        left:100px;
+        margin:0;
+    }
+    /* 文件夹的整体样式 */
+    .folder
+    {
+        top:-160px;
+        left:-100px;
+        width: 1400px;
+        height: 600px;
+        background-color:transparent; /* 文件夹颜色 */
+        border: 2px solid #0de6c9; /* 边框颜色 */
+        border-radius: 5px; /* 圆角效果 */
+        position: relative;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+    }
+    .folder::before 
+    {
+        content: '';
+        position: absolute;
+        top: -34px;
+        left: 10px;
+        width: 100px;
+        height: 30px;
+        background-color:transparent;
+        border: 2px solid #da2030;
+        border-radius: 5px 5px 0 0;
+        z-index:-1;
+    }
+    .sec-tab
+    {
+        content:'';
+        position: absolute;
+        top: -34px;
+        left: 110px;
+        width: 100px;
+        height: 30px;
+        background-color:transparent;
+        border: 2px solid #da2030;
+        border-radius: 5px 5px 0 0;
+        z-index:-1;
+    }
+    .pass-pos
+        {
+            position:absolute;
+            top:350px;
+            left:90px;
+            margin:0;
+            width:70%;
+            box-sizing:border-box;
+            overflow-wrap:break-word;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            color: #710ce5;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+            background: linear-gradient(45deg, #6906b6, #4682b4); /* 渐变背景 */
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: animateText 2s ease-in-out;
+        }
+
+        @keyframes animateText {
+            0% {
+                transform: scale(1);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+        .h2-pos
+        {
+            position:absolute;
+            top:200px;
+            left:90px;
+            margin:10px;
+        }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="head-pos">
+        <header>
+            <div class="header-content">
+                <nav>
+                    <ul>
+                        <p style="word-spacing:50px">
+                        <a href="homepage.html" ">首页</a>
+                        <a href="self-introduction.html" >自我介绍</a>
+                        <a href="我的作业.html" target="_blank">我的作业</a><br>
+                        </p>
+                        <div class="pos">
+                            <div class="folder">
+                                <div class="sec-tab"></div>
+                            </div>
+                            </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        </div>
+        
+       
+    <div class="welcome-message">
+            <h1>欢迎来到赵致睿的博客</h1>
+    </div>
+    <div class="h2-pos">
+        <h2>自我介绍</h2>
+    </div>
+    
+    <div class="link-container">
+       <div style="border-right: 1px solid#290ccc; padding-right: 10px;">
+        <a href="https://en.bjtu.edu.cn/" target="_blank">北京交通大学英文主页</a><br>
+       <a href="https://citel.bjtu.edu.cn/mlsv3/login/index.php" target="_blank">CITEL计算机课程平台</a><br>
+       <a href="http://citlab.bjtu.edu.cn/" target="_blank">计算机实验教学中心</a>
+       </div>
+    </div><br><br><br>
+    <a href="Raymond Shum 2023.pdf" download="Raymond Shum 2023.pdf">Resume</a><br>
+    <a href="Lab3-实验报告赵致睿.zip" download="Lab3-实验报告赵致睿.zip">Lab3-实验报告赵致睿</a><br>
+    <div class="graphic-pos">
+        <img src="Weixin Image_20241024175056.jpg" alt="图片" width="200"><br>
+        <img src="Weixin Image_20241109171114.jpg" alt="图片" width="200"><br>
+    </div>
+    <div class="pass-pos">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        大家好，我是赵致睿。我这里有两种版本的自我介绍，中文版和英文版<br>
+        中文版：<br>大家好，我叫赵致睿，来自北京，喜欢吃灌肠、杀猪菜和炸酱面。我很荣幸在北京交通大学计算机系学习，也非常喜欢您的导论课。大学四年的初步计划是雅思8+、托福110+、绩点3.8+、争取保研并同时准备出国。我知道这个计划非常艰难，不过我希望我能够成功做到。<br>
+        在爱好方面：我喜欢画画和排球。我时不时地会去画一些素描去缓解内心压力。我也非常喜欢看番剧————终结的炽天使、中二病也要谈恋爱、东京喰种这三部番是我的入坑作。最近，我在学习钢琴，其实是把放弃八年的钢琴技巧捡回来，希望我能再次掌握。<br>
+        我这个人自律性不太强，学习的时候效率不是特别高，自己会内耗，但是我有一个很宏伟的梦想。我想要自己创建一个虚拟世界公司，侧重潜行技术，努力实现virtual reality。<br>
+        英文版：<br>Good afternoon, it‘s my privilege to introduce myself to you. I‘m 18,and I‘m from the school of computer science and technology. <br>for my hobbies,  i like playing volleyball and drawing sketch during my free time.  <br>As for my personality ,I think Is about expressing ,I am thirsty to express my ideas and i am desire to utlize my own strength to contribute to our society. 
+        <br>i like speak English and l was awarded the second place In the school-level national telent cup.<br>
+    I have heared about Model Apec before and the sprite of cooperation and inclusion In the Apec relly inspire me.  i think what i expertise in computer science can help me devote my efforts In the economics 、public health 、 global trade and sustainable development. 
+        </div>
+
+        <script src="" async defer></script>
+    </body>
+</html>
