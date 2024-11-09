@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>赵致睿的博客</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .nav
+            {
+                background-color:lightblue;
+                color:blueviolet;
+                padding:10px;
+            }
+            iframe
+            {
+                width:100%;
+                height:80vh;
+                border:none;
+            }
+            .welcome-message
+            {
+                position:absolute;
+                top:10px;
+                left:10px;
+                margin:0;
+            }
+            .link-container
+            {
+                position:absolute;
+                top:300px;
+                right:10px;
+                border-left:1px soild #590ccc;
+                padding-left:10px;
+                text-align:right;
+            }
+            .graphic-pos
+            {
+                position:absolute;
+                top:400px;
+                right:10px;
+                margin:0;
+            }
+            .head-pos
+            {
+                position:absolute;
+                top:200px;
+                left:10px;
+                margin:0;
+            }
+    .pos
+    {
+        position:absolute;
+        top:200px;
+        left:100px;
+        margin:0;
+    }
+    /* 文件夹的整体样式 */
+    .folder
+    {
+        top:-160px;
+        left:-100px;
+        width: 1400px;
+        height: 600px;
+        background-color:transparent; /* 文件夹颜色 */
+        border: 2px solid #0de6c9;/* 边框颜色 */
+        border-radius: 5px; /* 圆角效果 */
+        position: relative;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+        z-index:-1;
+    }
+    .folder::before 
+    {
+        content: '';
+        position: absolute;
+        top: -34px;
+        left: 5px;
+        width: 100px;
+        height: 30px;
+        background-color:rgb(215, 150, 239);
+        border: transparent;
+        border-radius: 5px 5px 0 0;
+        clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%); /* 梯形(左上，右上，右下，左下) */
+        z-index:-1;
+    }
+    .sec-tab
+    {
+        content:'';
+        position: absolute;
+        top: -34px;
+        left: 105px;
+        width: 100px;
+        height: 30px;
+        background-color:rgb(215, 150, 239);
+        border: transparent;
+        border-radius: 5px 5px 0 0;
+        clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+        z-index:-1;
+    }
+    .thr-tab
+    {
+        content:'';
+        position: absolute;
+        top: -34px;
+        left: 224px;
+        width: 100px;
+        height: 30px;
+        background-color:rgb(215, 150, 239);
+        border: transparent;
+        border-radius: 5px 5px 0 0;
+        clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+        z-index:-1;
+    }
+    .pass-pos
+        {
+            position:absolute;
+            top:350px;
+            left:90px;
+            margin:0;
+            width:70%;
+            box-sizing:border-box;
+            overflow-wrap:break-word;
+        }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="head-pos">
+        <header>
+            <div class="header-content">
+                <nav>
+                    <ul>
+                        <p style="word-spacing:50px">
+                        <a href="homepage.html" target="_blank" >首页</a>
+                        <a href="self-introduction.html" >自我介绍</a>
+                        <a href="我的作业.html" >我的作业</a><br>
+                        </p>
+                        <div class="pos">
+                            <div class="folder">
+                                <div class="sec-tab"></div>
+                                <div class="thr-tab"></div>
+                            </div>
+                            </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        </div>
+        
+       
+    <div class="welcome-message">
+            <h1>欢迎来到赵致睿的博客</h1>
+    </div>
+    <div class="pass-pos">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       大家好，这里是赵致睿的博客。我是一个热爱生活与编程的男孩，这个博客以后会继续完善，目前的这个博客是我9个小时的成果，比较初步吧，没有动画，没有美工，就是文字和图片。
+       不过，大家要常关注啊，我认为以后我的博客会越做越精致的！
+        </div>
+    <div class="link-container">
+       <div style="border-right: 1px solid#290ccc; padding-right: 10px;">
+        <a href="https://en.bjtu.edu.cn/" target="_blank">北京交通大学英文主页</a><br>
+       <a href="https://citel.bjtu.edu.cn/mlsv3/login/index.php" target="_blank">CITEL计算机课程平台</a><br>
+       <a href="http://citlab.bjtu.edu.cn/" target="_blank">计算机实验教学中心</a>
+       </div>
+    </div><br><br><br>
+    <div class="graphic-pos">
+        <img src="Weixin Image_20241024175056.jpg" alt="图片" width="200"><br>
+        <img src="Weixin Image_20241109171114.jpg" alt="图片" width="200"><br>
+    </div>
+    
+
+        <script src="" async defer></script>
+    </body>
+</html>
